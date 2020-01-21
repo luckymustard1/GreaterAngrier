@@ -1,0 +1,46 @@
+#aside {
+    position: absolute;
+    width: 300px;
+    right: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+    background-color: #DA1A35;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.mainbody {
+    margin-right: 300px;
+}
+
+.sidebarservice {
+    display: block;
+    list-style-type: none;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: bold;
+    line-height: 19.99px; 
+    outline-offset: 0px;
+    padding: 5px;
+    margin: 5px;
+    border-color: #f2f2f2;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.goodservice {
+    background-color: #ffffff;
+    color: #1f1f1f;
+}
+
+.badservice {
+    background-color: #ffe700;
+    color: #1f1f1f;
+}
+
+.terribleservice {
+    color: #ffffff;
+    background-color: #DA1A35;
+}

@@ -1,0 +1,139 @@
+body {margin:0;}
+
+h1 { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 36px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 39.6px; 
+} 
+
+h2 { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 26.4px; 
+} 
+
+h3 { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 19.8px; 
+} 
+
+p { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 19.99px; 
+} 
+
+blockquote { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 29.99px; 
+} 
+
+pre { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 16px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 22.85px; 
+}
+
+#navigationbar {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navigationmenuitem {
+    float: left;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 19.99px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.inactivemenuitem {
+    color: #6E6E6E;
+}
+
+.activemenuitem {
+    background-color: #DA1A35;
+    color: #ffffff;
+}
+
+.inactivemenuitem:hover {
+    background-color: #E6E6E6;
+}
+
+#videobanner {
+    position: static;
+    right: 0;
+    width: 100%;
+    padding-top: 47px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#body {
+    padding: 20px;
+    margin-top: 0px;
+    background-color: #f2f2f2;
+    height: auto;
+}
+
+#tiles {
+    width: 95%;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.tile {
+    display: block;
+    background-color: #DA1A35;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

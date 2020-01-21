@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Saying hello to the world">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Tony Blair">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="Stylesheets/servicessidebar.css">
+        <link rel="icon" href="Images/favicon.ico" type="image/gif" sizes="48x48">
+        <title>Greater Angrier | Always Delayed</title>
+        
+        <nav class="sticky">
+            <ul id="navigationbar">
+                <li><a href="index.html"><img class="logo" src="Images/logo_small.png" alt="Greater Angrier Logo"></a></li>
+                <li><a class="navigationmenuitem activemenuitem" href="index.html">Home</a></li>
+                <li><a class="navigationmenuitem inactivemenuitem" href="">Trains</a></li>
+                <li><a class="navigationmenuitem inactivemenuitem" href="tickets.html">Tickets</a></li>
+            </ul>
+        </nav>
+    </head>
+    <body>        
+        <video autoplay loop playsinline muted onclick="this.play()" poster="Images/PlayBanner.png" id="videobanner">
+            <source src="Videos/BannerVideo.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+        <audio autoplay loop>
+            <source src="Sounds/LondonUndergroundAudio.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+        <div id="body">
+            <div id="aside">
+                <div>
+                    <h1 style="margin: 10px;">Major Delays on all services</h1>
+                    <ul style="padding: 0px;">
+                        <li class="sidebarservice badservice">Line 1: Bad service</li>
+                        <li class="sidebarservice terribleservice">Line 2: All services cancelled</li>
+                        <li class="sidebarservice goodservice">Line 3: Unusually good service</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mainbody clearfix">
+                <ul id="tiles">
+                    <li class="tile" style="height: 200px;">
+                        <img src="Images/BookNow.png" style="float: left; height: inherit;">
+                        <div style="padding-left: 300px;">
+                            <h1 style="font-style: italic">Book Now!</h1>
+                            <ul style="list-style-type: none; padding-left: 0px;">
+                                <li><h3>✓ No delay repay</h3></li>
+                                <li><h3>✓ Beatable on price</h3></li>
+                                <li><h3>✓ Always delayed</h3></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="tile" style="height: 200px;">
+                        <img src="Images/BlairFares.png" style="float: left; height: inherit;">
+                        <div style="padding-left: 300px;">
+                            <h1 style="font-style: italic">Save with Blair Fares</h1>
+                            <h2>Limited time offer.<br>Exclusively funding Tony Blair's retirement.</h2>
+                            <p>Blair Fares start from just £2 per mile.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
