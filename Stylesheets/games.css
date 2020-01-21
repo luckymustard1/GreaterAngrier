@@ -1,0 +1,8 @@
+#railwayvalley {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    background-color: #f2f2f2;
+}
