@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
         <link rel="stylesheet" type="text/css" href="Stylesheets/servicessidebar.css">
+        <script type="application/javascript" src="Javascript/linestatus.js"></script>
         <link rel="icon" href="Images/favicon.ico" type="image/gif" sizes="48x48">
         <title>Greater Angrier | Always Delayed</title>
         
@@ -17,6 +18,7 @@
                 <li><a class="navigationmenuitem activemenuitem" href="index.html">Home</a></li>
                 <li><a class="navigationmenuitem inactivemenuitem" href="trains.html">Trains</a></li>
                 <li><a class="navigationmenuitem inactivemenuitem" href="tickets.html">Tickets</a></li>
+                <li><a class="navigationmenuitem inactivemenuitem" href="about.html">About</a></li>
             </ul>
         </nav>
     </head>
@@ -33,9 +35,9 @@
             <div id="aside">
                 <h1 style="margin: 10px;">Major Delays on all services</h1>
                 <ul style="padding: 0px;">
-                    <li class="sidebarservice badservice">Line 1: Bad service</li>
-                    <li class="sidebarservice terribleservice">Line 2: All services cancelled</li>
-                    <li class="sidebarservice goodservice">Line 3: Unusually good service</li>
+                    <li id="colchester" class="sidebarservice badservice">Colchester: Bad service</li>
+                    <li id="rochford" class="sidebarservice terribleservice">Rochford: All services cancelled</li>
+                    <li id="stratford" class="sidebarservice goodservice">Stratford: Unusually good service</li>
                 </ul>
                 
                 <h1 style="margin: 10px;">Party Tube</h1>

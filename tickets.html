@@ -7,6 +7,8 @@
         <meta name="author" content="Tony Blair">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
+        <script type="text/javascript" src="Javascript/moment.js"></script>
+        <script type="text/javascript" src="Javascript/tickets.js"></script>
         <link rel="icon" href="Images/favicon.ico" type="image/gif" sizes="48x48">
         <title>Greater Angrier | Always Delayed</title>
         
@@ -16,15 +18,49 @@
                 <li><a class="navigationmenuitem inactivemenuitem" href="index.html">Home</a></li>
                 <li><a class="navigationmenuitem inactivemenuitem" href="trains.html">Trains</a></li>
                 <li><a class="navigationmenuitem activemenuitem" href="tickets.html">Tickets</a></li>
+                <li><a class="navigationmenuitem inactivemenuitem" href="about.html">About</a></li>
             </ul>
         </nav>
     </head>
     <body>
+        <audio autoplay>
+            <source src="Sounds/Scream.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
         <div id="body" style="margin-top: 10px;">
             <div class="mainbody">
-                <h1>Important information</h1>
-                <p>All lines are severely delayed.</p>
+                <h1 class="italics">Buy Now!</h1>
+                <form>
+                    <p>Departing from:</p>
+                    <select id="departing" class="formfield">
+                        <option value="COL">Colchester</option>
+                        <option value="INT">Ingatestone</option>
+                        <option value="LST">London Liverpool Street</option>
+                        <option value="MKT" selected>Marks Tey</option>
+                        <option value="RFD">Rochford</option>
+                        <option value="SRA">Stratford</option>
+                    </select>
+                    <p>Arriving at:</p>
+                    <select id="arriving" class="formfield">
+                        <option value="COL">Colchester</option>
+                        <option value="INT">Ingatestone</option>
+                        <option value="LST" selected>London Liverpool Street</option>
+                        <option value="MKT">Marks Tey</option>
+                        <option value="RFD">Rochford</option>
+                        <option value="SRA">Stratford</option>
+                    </select>
+                    <p>Departure date and time:</p>
+                    <input type="datetime-local" id="datetime" name="datetime" class="formfield">
+                    <p></p>
+                </form>
+                <button onclick="findTickets()" class="formfield">Find tickets</button>
+                <h1 class="italics">Ticket Offers</h1>
+                <a href="partytube.html"><p style="color: #DA1A35;">Half-Price Party Tube</p></a>
             </div>
+            <footer style="margin: 10px; color: #DA1A35;">
+                <span style="float: left"><h3>&copy; 2020 GreaterAngrier</h3></span>
+                <span style="float: right"><h3 style="text-align: right">Operated by <a href="https://www.cherieblair.org/" style="color: #DA1A35;">Cherie Blair</a></h3></span>
+            </footer>
         </div>
     </body>
 </html>
