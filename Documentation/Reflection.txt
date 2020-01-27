@@ -1,0 +1,15 @@
+----------Week One Reflection----------
+
+The task for this week was to build a HTML website. I built a site for GreaterAngrier, a train operating company located in the UK currently holding the East Anglia rail franchise, operated by Cherie Blair. I have implemented a modern multimedia website with videos, images and sounds. At the top of the page is a navigation menu which 'sticks' to the top as visitors scroll. Javascript has been utilised to automatically update the status on the railway in a sidebar on the homepage. The company's mascot, Tony Blair, is seen on the homepage advertising Blair Fares (discounted fares). In the footer is a copyright notice and link to operator Cherie Blair's website.
+
+CSS has been utilised to decorate the pages, whilst an iFrame shows the train departure board for London Liverpool Street. Tickets can be purchased to/from 5 stations, linking to the National Rail website, whilst the current date/time is loaded into the form automatically, using an external javascript class called Moment.js. 
+
+----------New Features to add----------
+
+2. Rename testimonials page to twitter
+
+2.5. Add twitter.html to the navigation menu on the right hand side
+
+3. Add more testimonials on the twitter.html page
+
+4. 
